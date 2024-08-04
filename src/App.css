@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.auth-container {
+    background-image: url(../src/assets/Imges/Auth-bg.png);
+    background-position: center center;
+    background-size: cover;
+}
+
+.overLayer {
+    background: linear-gradient(45deg, rgba(47, 140, 96, 0.63), rgba(0, 0, 0, 0.62));
+}
+
+/* ---------------------- sidebarContainer ---------------------- */
+.sidebarContainer .ps-sidebar-container {
+    background-color: rgba(31, 38, 62, 1);
+    height: 100vh;
+    border-top-right-radius: 40px;
+}
+
+.sidebarContainer .ps-menu-button {
+    color: #fff !important;
+}
+
+.sidebarContainer .ps-menu-button:hover {
+    background-color: rgba(0, 146, 71, 0.1) !important;
+    border-left: rgba(0, 146, 71, 1) 3px solid;
+}
+
+.sidebarContainer .firstMenuItem .ps-menu-button:hover {
+    background-color: transparent !important;
+    border: none;
+}
+
+
+/*  ---------------------- header  ---------------------- */
+.bg-header {
+    background-image: url('../src/assets/Header-bg.svg');
+    background-position: center center;
+    background-size: cover;
+    background-color: rgba(0, 146, 71, 1);
+}
+
+
+/* ---------------------- notFound  ---------------------- */
+.bg-notFound {
+    background-image: url('../src/assets/NotFound-bg.svg');
+    background-size: cover;
+}
+
+.bg-notFound .content h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.bg-notFound .content h3 {
+    color: rgb(0, 146, 71);
+}
+
+
+/* ---------------------- screen-readers ----------------------*/
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
